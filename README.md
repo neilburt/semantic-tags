@@ -9,4 +9,4 @@ This is a web page for Horiseon Social Solution Services. It is clean, concise, 
 
 ![Bottom half screenshot of Horiseon web page](./assets/images/screenshot2.jpg)
 
-Check out the [deployed web page](neilburt.github.io/semantic-tags).
+Check out the [deployed web page](https://neilburt.github.io/semantic-tags/).
