@@ -8,23 +8,23 @@ body {
     background-color: #d9dcd6;
 }
 
-header {
+header { /* "header" class not needed, switched to element selector */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-h1 {
+h1 { /* only one <h1> element exists, removed class */
     display: inline-block;
     font-size: 48px;
 }
 
-.seo {
+.seo { /* only one occurance of class, removed further specificity */
     color: #d9dcd6;
 }
 
-nav {
+nav { /* changed header <div> to <nav>, removed class */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ nav {
     font-size: 20px;
 }
 
-nav ul {
+nav ul { /* changed to keep with new tags, removed class */
     list-style-type: none;
 }
 
-nav ul li {
+nav ul li { /* see line 35 */
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,13 +69,13 @@ p {
     margin-left: 25px;
 }
 
-main {
+main { /* removed "content" class <div>, replaced with <main> */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.main-section {
+.main-section { /* converted <div>'s in <main> to <section>'s with one class, consolidated and moved up on style sheet to reflect tag structure */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,16 +84,16 @@ main {
     color: #ffffff;
 }
 
-.main-section img {
+.main-section img { /* was able to consolidate all <main> <img> selectors with new class */
     max-height: 200px;
 }
 
-.main-section h2 {
+.main-section h2 { /* was able to consolidate all <main> <h2> selectors with new class */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-aside {
+aside { /* changed parent <div> with "benefits" class to <aside> */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -104,17 +104,17 @@ aside {
     background-color: #2589bd;
 }
 
-.benefits {
+.benefits { /* changed all <aside> <div> children to <section>'s with class of "benefits", consolidated selectors */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-h3 {
+h3 { /* consolidated all <h3> selectors as they are the same */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits img {
+.benefits img { /* consolidated all <img> selectors from "benefits" class <section>'s */
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -126,7 +126,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* The footer h2 had to be specified as it is the only h2 with this font-size */
+
 footer h2 {
     font-size: 20px;
 }
