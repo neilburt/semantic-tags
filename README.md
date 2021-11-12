@@ -1,4 +1,4 @@
-# Homework 1 - Using Semantic Tags
+# Using Semantic Tags
 ## Description
 This is a web page for Horiseon Social Solution Services. It is clean, concise, and functional. I have refactored the HTML to utilize semantic tags and structure. I have updated and consolidated the CSS style sheet to reflect the revised semantic structure. These steps have made the web page more accessible and the code cleaner but the page itself has retained all of its functionality and its original look.
 
